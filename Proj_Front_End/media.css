@@ -1,0 +1,88 @@
+@media screen and (max-width: 1400px) {
+    .sobre2{
+        width: 100%;
+        height: 100%;
+    }
+    section .primary{
+        width: 81%;
+        height: 100%;
+    }
+    .foto_sobre img{
+        width: 800px;
+        height: 400px;
+    }
+    .conteudo2{
+        display: block;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 1200px) {
+     .sobre2{
+        width: 100%;
+        height: 100%;
+    }
+    section .primary{
+        width: 81%;
+        height: 100%;
+    }
+    .sobre{
+        width: 100%;
+        height: 100%;
+    }
+    .conteudo2{
+        display: block;
+        flex-direction: column;
+    }
+    .foto_sobre img{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header nav ul {
+        display: none;
+    }
+    header img{
+       margin-left: 210px;
+    }
+    .banner{
+        height: 500px;
+    }
+    .sobre2{
+        width: 100%;
+        height: 100%;
+    }
+    .section .primary{
+        width: 100%;
+        height: 100%;
+    }
+    .sobre{
+        width: 100%;
+        height: 100%;
+    }
+    .conteudo2{
+        display: block;
+        flex-direction: column;
+        padding: 5px;
+    }
+    .foto_sobre img{
+        height: 200px;
+        width: 313px;
+    }
+    
+    .conteudo2 .texto_sobre{
+        margin-top: -180px;
+    }
+    footer .footer .redes{
+        margin-left: -15px;
+        display: flex;
+        justify-content: space-around;
+    }
+    footer .links{
+        width: 70%;
+        height: 100%;
+        display: block;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}

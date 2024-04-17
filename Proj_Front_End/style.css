@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Protest+Strike&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    width: 100%;
+    padding: 60px 4%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    transition: 1s;
+   
+}
+header.rolagem{
+    background-color: rgba(0, 0, 0, 0.466);
+    padding: 20px 4%;
+}
+header.rolagem a{
+    color: white;
+}
+header ul{
+    list-style-type:none ;
+}
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.banner{
+    background-image: url("img/bannerindex.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+a:hover{
+    color: rgb(255, 255, 70);
+    border-bottom: 2px solid;
+    padding: 3px;
+}
+.title{
+margin-left: 2%;
+border-bottom: 1px solid black;
+width: 20%;
+font-family: "Protest Strike", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+ul{
+margin-bottom: 40px;
+}
+section .primary{
+background-color: rgba(255, 255, 0, 0.452);
+width: 80%;
+margin-left: 10%;
+border-radius: 10px;
+padding: 15px;
+font-family: "Nunito", sans-serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+font-size: 18px;
+font-weight: bold;
+line-height: 23px;
+text-indent:25px;
+}
+section .primary:hover{
+background-color: black;
+}
+.sobre2{
+background-color: black;
+height: 500px;
+}
+.sobre .conteudo2{
+width: 80%;
+margin: auto;
+display: flex;
+align-items: center;
+background-color: rgba(255, 255, 0, 0.452);
+padding: 2rem;
+border-radius: 10px;
+}
+.foto_sobre{
+width: 100%;
+height: 400px;
+margin-right: 1rem;
+}
+.foto_sobre img{
+width: 100%;
+border-radius: 10px;
+}
+.sobre .conteudo2 .foto_sobre:hover img{
+border-radius: 20px;
+transform: scale(0.8);
+}
+.container .box img{
+border-radius: 20px;
+object-fit: cover;
+}
+.sobre .conteudo2 .texto_sobre{
+color: white;
+padding: 10px;
+font-size: 1.2rem;
+font-size: 20px;
+line-height: 1.8;
+font-family: "Nunito", sans-serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal
+font-size: 18px;
+font-weight: bold;
+line-height: 23px;
+text-indent:25px;
+}
+.conteudo2:hover{
+background-color: black;
+}
+.heading{
+text-align: center;
+color: white;
+text-transform: uppercase;
+padding-bottom: 2rem;
+padding-top: 3.5rem;
+font-size: 3rem;
+}
+.heading span{
+color: white;
+text-transform: uppercase;
+    }
+section p{
+color: white;
+font-size: 18px;
+font-weight: bold;
+line-height: 23px;
+text-indent:25px;
+text-align: justify;
+font-family: "Nunito", sans-serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal
+}
+.sobre{
+background-color: black;
+padding: 15px;
+}
+li{
+    list-style: none;
+margin-left: 10px;
+padding: 3px;
+font-size: 20px;
+font-weight: bold;
+line-height: 23px;
+margin-bottom: 5px;
+font-family: "Nunito", sans-serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;    
+        
+}
+.footer{
+ background-color: rgba(0, 0, 0, 0.596);
+ text-align: center;
+}
+.footer .redes{
+ padding: 1rem.0;
+}
+.footer .redes a{
+ height: 5rem;
+ width: 5rem;
+ line-height: 5rem;
+ font-size: 2rem;
+ color: white;
+ margin: 3rem;
+}
+.footer .redes a:hover{
+border-bottom: 1px solid black;
+}
+.footer .links{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 2rem.0;
+gap: 1rem;
+}
+.footer .links a{
+padding: .7rem 2rem;
+color: #fff;
+border: black;
+font-size: 25px;
+}
+.footer .links a:hover{
+border-bottom: 1px solid black;
+}
+html{
+scroll-behavior: smooth;
+}
+
+
+
+
+
